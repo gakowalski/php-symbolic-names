@@ -3,7 +3,7 @@
 ## Functions
 
 function | alias | additional aliases and other info
---- | ---
+--- | --- | ---
 explode | 💥 |
 pi | 𝜋 |
 pow( $arg, 1/3 ) | ∛ |
