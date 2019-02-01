@@ -16,5 +16,6 @@ assert( 💤(1) === 0 );
 assert( 🗚('Test') == 'TEST' );
 assert( 🗛('Test') == 'test' );
 assert( 💥('-', '2019-02-01')[1] == 2 );
+assert( ✂("\t test \n") == 'test' );
 
 echo "All tests passed successfully!\n";

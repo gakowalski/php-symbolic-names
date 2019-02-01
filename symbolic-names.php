@@ -70,3 +70,7 @@ function 🗛($arg) {
 function 💥() {
   return call_user_func_array('explode', func_get_args());
 }
+
+function ✂(){
+  return call_user_func_array('trim', func_get_args());
+}
