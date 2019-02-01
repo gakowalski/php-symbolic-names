@@ -1,5 +1,11 @@
 # UTF-8 aliases
 
+## Usage
+
+```php
+require 'symbolic-names.php';
+```
+
 ## Functions
 
 function | alias | additional aliases and other info
