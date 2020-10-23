@@ -11,7 +11,6 @@ define('⅗', 3/5);
 define('⅘', 4/5);
 
 // N/6
-
 define('⅙', 1/6);
 define('⅚', 5/6);
 
@@ -30,6 +29,10 @@ define('⅑', 1/9);
 // N/10
 define('⅒', 1/10);
 
+define('𝜋', M_PI);
+define('⅟𝜋', M_1_PI);
+define('√𝜋', M_SQRTPI);
+
 
 function √($arg) {
   return sqrt($arg);
@@ -37,6 +40,10 @@ function √($arg) {
 
 function ∛($arg) {
   return pow($arg, ⅓);
+}
+
+function √√($arg) {
+  return √(√($arg));
 }
 
 function ∜($arg) {
@@ -73,4 +80,16 @@ function 💥() {
 
 function ✂(){
   return call_user_func_array('trim', func_get_args());
+}
+
+function 🖃() {
+  return call_user_func_array('mail', func_get_args());;
+}
+
+function 📏($str){
+  return strlen($str);
+}
+
+function 📐($str){
+  return mb_strlen($str);
 }
